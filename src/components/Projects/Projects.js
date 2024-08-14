@@ -42,7 +42,7 @@ function Projects() {
               imgPath={aiskincare}
               isBlog={false}
               title="AI SKINCARE"
-              description="Skincare AI is your virtual skincare consultant, providing tailored advice and solutions for all your skincare needs. It analyzes your skin type, concerns, and goals to recommend the best products and routines. From cleansing to moisturizing, sun protection to exfoliation, it guides you through each step of a comprehensive skincare regimen."
+              description="Skincare AI is your virtual skincare consultant, providing tailored advice and solutions for all your skincare needs. It analyzes your skin type, concerns, and goals to recommend the best products and routines."
               ghLink="https://github.com/INFANTCALVIN/AI-SKINCARE"
             />
           </Col>

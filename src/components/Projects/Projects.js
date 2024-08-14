@@ -36,6 +36,16 @@ function Projects() {
               ghLink="https://github.com/INFANTCALVIN/PG-Accods"
             />
           </Col>
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bitsOfCode}
+              isBlog={false}
+              title="AI SKINCARE"
+              description="Skincare AI is your virtual skincare consultant, providing tailored advice and solutions for all your skincare needs. It analyzes your skin type, concerns, and goals to recommend the best products and routines. From cleansing to moisturizing, sun protection to exfoliation, it guides you through each step of a comprehensive skincare regimen."
+              ghLink="https://github.com/INFANTCALVIN/"
+            />
+          </Col>
         </Row>
       </Container>
     </Container>

@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import ctf from "../../Assets/Projects/1.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
-
+import aiskincare from "../../Assets/Projects/AI.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -39,11 +39,11 @@ function Projects() {
           
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={aiskincare}
               isBlog={false}
               title="AI SKINCARE"
               description="Skincare AI is your virtual skincare consultant, providing tailored advice and solutions for all your skincare needs. It analyzes your skin type, concerns, and goals to recommend the best products and routines. From cleansing to moisturizing, sun protection to exfoliation, it guides you through each step of a comprehensive skincare regimen."
-              ghLink="https://github.com/INFANTCALVIN/"
+              ghLink="https://github.com/INFANTCALVIN/AI-SKINCARE"
             />
           </Col>
         </Row>

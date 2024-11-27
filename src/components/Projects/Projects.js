@@ -47,6 +47,17 @@ function Projects() {
             />
           </Col>
         </Row>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ctf}
+              isBlog={false}
+              title="Capture the Flag"
+              description="A Capture the Flag (CTF) event is a cybersecurity competition that challenges participants to solve a variety of puzzles, tasks, and challenges to find flags hidden within systems or applications. These flags are typically strings or codes that prove the successful completion of a challenge developed for Threads'24 event."
+              ghLink="https://github.com/INFANTCALVIN/Capture-the-flag"
+            />
+          </Col>
+        </Row>
       </Container>
     </Container>
   );

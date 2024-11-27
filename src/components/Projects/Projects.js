@@ -46,15 +46,14 @@ function Projects() {
               ghLink="https://github.com/INFANTCALVIN/AI-SKINCARE"
             />
           </Col>
-        </Row>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={ctf}
+              imgPath={aiskincare}
               isBlog={false}
-              title="Capture the Flag"
-              description="A Capture the Flag (CTF) event is a cybersecurity competition that challenges participants to solve a variety of puzzles, tasks, and challenges to find flags hidden within systems or applications. These flags are typically strings or codes that prove the successful completion of a challenge developed for Threads'24 event."
-              ghLink="https://github.com/INFANTCALVIN/Capture-the-flag"
+              title="AI SKINCARE"
+              description="Skincare AI is your virtual skincare consultant, providing tailored advice and solutions for all your skincare needs. It analyzes your skin type, concerns, and goals to recommend the best products and routines.From cleansing to moisturizing, sun protection to exfoliation, it guides you through each step of a comprehensive skincare regimen."
+              ghLink="https://github.com/INFANTCALVIN/AI-SKINCARE"
             />
           </Col>
         </Row>

@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import ctf from "../../Assets/Projects/1.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import aiskincare from "../../Assets/Projects/AI.png";
+import priyaport from "../Assets/Projects/port.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -41,7 +42,7 @@ function Projects() {
             <ProjectCard
               imgPath={aiskincare}
               isBlog={false}
-              title="AI SKINCARE"
+              title="AI Skincare"
               description="Skincare AI is your virtual skincare consultant, providing tailored advice and solutions for all your skincare needs. It analyzes your skin type, concerns, and goals to recommend the best products and routines.From cleansing to moisturizing, sun protection to exfoliation, it guides you through each step of a comprehensive skincare regimen."
               ghLink="https://github.com/INFANTCALVIN/AI-SKINCARE"
             />
@@ -49,11 +50,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={aiskincare}
+              imgPath={priyaport}
               isBlog={false}
-              title="AI SKINCARE"
-              description="Skincare AI is your virtual skincare consultant, providing tailored advice and solutions for all your skincare needs. It analyzes your skin type, concerns, and goals to recommend the best products and routines.From cleansing to moisturizing, sun protection to exfoliation, it guides you through each step of a comprehensive skincare regimen."
-              ghLink="https://github.com/INFANTCALVIN/AI-SKINCARE"
+              title="Portfolio-Freelance"
+              description="Priya's Portfolio Website — a fully customized and visually engaging personal portfolio site, crafted to showcase skills, experiences, and creativity in a dynamic way! 💼✨Built with [React/HTML/CSS/JavaScript], this project challenged me to create a responsive, user-friendly interface that highlights personal branding with seamless design and interactivity."
+              ghLink="https://github.com/FreelancerNics/PORTFOLIO-PRIYA.git"
             />
           </Col>
         </Row>

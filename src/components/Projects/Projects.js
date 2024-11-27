@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import ctf from "../../Assets/Projects/1.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import aiskincare from "../../Assets/Projects/AI.png";
-import priyaport from "../Assets/Projects/port.png";
+import priyaport from "../../Assets/Projects/port.png";
 function Projects() {
   return (
     <Container fluid className="project-section">

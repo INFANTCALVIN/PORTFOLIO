@@ -6,7 +6,7 @@ import ctf from "../../Assets/Projects/1.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import aiskincare from "../../Assets/Projects/AI.png";
 import priyaport from "../../Assets/Projects/port.png";
-import doorlock from "../../Assets/Projects/doorlock.png";
+import door from "../../Assets/Projects/doorlock.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -60,11 +60,11 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={doorlock}
+              imgPath={door}
               isBlog={false}
               title="Smart Door Lock-IOT"
               description="Developed a 🔐 Smart Lock System using Blynk Console that automatically locks classrooms after 6 PM if empty and unlocks at 6 AM. Includes exception handling for holidays/functions and real-time control via IoT dashboard. Ensures security with automation and presence detection. ⚙️📱"
-              ghLink="https://github.com/FreelancerNics/PORTFOLIO-PRIYA.git"
+              ghLink="https://github.com/INFANTCALVIN"
             />
           </Col>
         </Row>

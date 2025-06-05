@@ -57,6 +57,15 @@ function Projects() {
               ghLink="https://github.com/FreelancerNics/PORTFOLIO-PRIYA.git"
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={priyaport}
+              isBlog={false}
+              title="Portfolio-Freelance"
+              description="Priya's Portfolio Website — a fully customized and visually engaging personal portfolio site, crafted to showcase skills, experiences, and creativity in a dynamic way!💼✨This project challenged me to create a responsive, user-friendly interface that highlights personal branding with seamless design and interactivity."
+              ghLink="https://github.com/FreelancerNics/PORTFOLIO-PRIYA.git"
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
